@@ -1,0 +1,29 @@
+name: Build and deploy Node.js app to Github Pages
+run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+on: 
+  push:
+    branches:
+      - main
+
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3.3.0
+
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v3.6.0
+
+      - name: npm install
+        run: |
+          npm install
+
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v1.0.7
+        with:
+          name: node-app
+          path: .
+
+      - name: Deploy GitHub Pages site
+        uses: actions/deploy-pages@v1.2.4
