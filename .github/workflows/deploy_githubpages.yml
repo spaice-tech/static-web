@@ -1,5 +1,5 @@
 name: Build and deploy Node.js app to Github Pages
-run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+
 on: 
   push:
     branches:
