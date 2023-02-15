@@ -1,0 +1,39 @@
+{
+    "hero": {
+        "slogan": "Habilitando la navegación autónoma en el espacio con IA"
+    },
+    "tiles": {
+        "header": "SPAICE es una solución para la sostenibilidad en el espacio",
+        "paragraph": "Confiamos en los últimos avances en IA para aumentar la vida útil de los satélites y realizar la eliminación de escombros de forma autónoma",
+        "rangeSteelsTitle": "+8250 satélites orbitando la tierra",
+        "rangeSteelsDescription": "",
+        "varietyTechnologiesTitle": "+40% de satélites en órbita están inactivos",
+        "varietyTechnologiesDescription": "",
+        "experienceTitle": "Los lanzamientos orbitales aumentan anualmente con una tendencia continua",
+        "experienceDescription": ""
+    },
+    "products": {
+        "poseEstimation": "Estimación de posición y movimiento",
+        "poseEstimationHeader": "Nuestra solución basada en Deep Learning puede estimar la posición de los satélites en órbita",
+        "poseEstimationDescription": "Capaz de trabajar con satélites previamente lanzados",
+        "navigation": "Navegación",
+        "navigationHeader": "SPAICE utiliza la última tecnología en navegación autónoma adaptada para la industria aeroespacial",
+        "navigationDescription": "No solo los autos podrán conducirse solos",
+        "docking": "Acoplamiento",
+        "dockingHeader": "Nuestras políticas entrenadas ofrecen las mejores soluciones de control para el acoplamiento",
+        "dockingDescription": "Un acoplamiento preciso permite el servicio, el reabastecimiento o la eliminación de cualquier satélite",
+        "onBoard": "Operaciones a bordo",
+        "onBoardHeader": "Soluciones de manipulación robótica para operar en satélites",
+        "onBoardDescription": "Aumentamos la vida útil de los satélites realizando operaciones de mantenimiento"
+    },
+    "cta": {
+        "header": "El comienzo de una nueva era de servicios en órbita",
+        "paragraph": "Estamos buscando socios para unirnos en este viaje",
+        "contact": "Contáctanos",
+        "email": "mailto:contact@spaice.com?subject=Interesado en SPAICE"
+    },
+    "testimonial": {
+        "header": "La navegación autónoma está despejando",
+        "paragraph": "Mantenme informado"
+    }
+}
