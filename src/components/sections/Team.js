@@ -1,7 +1,6 @@
 import React from 'react';
 import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
-import SectionHeader from './partials/SectionHeader';
 import { useTranslation } from 'react-i18next';
 import Image from '../elements/Image';
 

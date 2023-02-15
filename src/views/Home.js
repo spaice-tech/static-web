@@ -4,7 +4,6 @@ import Hero from '../components/sections/Hero';
 import FeaturesTiles from '../components/sections/FeaturesTiles';
 import Values from '../components/sections/Values';
 import FeaturesSplit from '../components/sections/ProductsSplit';
-import Team from '../components/sections/Team';
 import BusinessTechVision from '../components/sections/BusinessTechVision';
 import Cta from '../components/sections/Cta';
 

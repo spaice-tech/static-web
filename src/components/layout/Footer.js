@@ -4,7 +4,6 @@ import classNames from 'classnames';
 import Logo from './partials/Logo';
 import FooterNav from './partials/FooterNav';
 import FooterSocial from './partials/FooterSocial';
-import FooterContact from './partials/FooterContact';
 
 const propTypes = {
     topOuterDivider: PropTypes.bool,

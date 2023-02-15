@@ -1,9 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
-import ButtonGroup from '../elements/ButtonGroup';
-import Button from '../elements/Button';
-import Image from '../elements/Image';
 
 import { Link } from 'react-scroll'
 import { useTranslation } from 'react-i18next';
@@ -32,18 +29,7 @@ const Hero = ({
     ...props
 }) => {
 
-    const [videoModalActive, setVideomodalactive] = useState(false);
-
-    const openModal = (e) => {
-        e.preventDefault();
-        setVideomodalactive(true);
-    }
-
-    const closeModal = (e) => {
-        e.preventDefault();
-        setVideomodalactive(false);
-    }
-
+   
     const outerClasses = classNames(
         'hero section bottom-content-desktop background-space-debris pb-32 full-height',
         topOuterDivider && 'has-top-divider',
@@ -53,19 +39,6 @@ const Hero = ({
         className
     );
 
-    const innerClasses = classNames(
-        'hero-inner section-inner',
-        topDivider && 'has-top-divider',
-        bottomDivider && 'has-bottom-divider'
-    );
-
-    const splitClasses = classNames(
-        'split-wrap',
-        invertMobile && 'invert-mobile',
-        invertDesktop && 'invert-desktop',
-        alignTop && 'align-top',
-        bottomDivider && 'has-bottom-divider'
-    );
 
     const { t } = useTranslation();
 

@@ -51,12 +51,6 @@ const FeaturesSplit = ({
         alignTop && 'align-top'
     );
 
-    const sectionHeader = {
-        title: 'Custom cuts and high-quality, precise iron pieces, delivered on time.',
-        paragraph: 'Oxitall Segre is a trusted provider of metal parts production with over 30 years of experience in the metallurgic industry. Our skilled professionals have the expertise and knowledge to handle a variety of cutting techniques and steels, ensuring high-quality and precise results. Choose us for reliable and successful metal parts production delivered on time.'
-    };
-
-
     const { t } = useTranslation();
 
     const createLeftSplit = (section, image, title, description) => {
