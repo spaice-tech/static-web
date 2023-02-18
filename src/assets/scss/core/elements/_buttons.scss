@@ -67,6 +67,37 @@
 	}
 }
 
+.button-link {
+    display: inline-flex;
+	@include font-size(button);
+    @include font-weight(button);
+	padding: (($button-form--height - get-line-height(button) - ($button-form--border-width * 2)) * 0.5) ($button--padding-h - $button-form--border-width);
+	height: $button-form--height;
+    text-decoration: none !important;
+	text-transform: $button--transform;
+	color: color(button-light);
+    background-color: color-bg(button-light);
+    border-width: $button-form--border-width;
+	border-style: $button-form--border-style;
+	border-color: color-border(button-light);
+    border-radius: $button--radius;
+    cursor: pointer;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: inherit;
+    white-space: nowrap;
+	transition: background .15s ease;
+
+    &:active {
+        outline: 0;
+    }
+
+	&:hover {
+		background-color: color-bg(button-light-hover);
+		border-color: color-border(button-light-hover);
+	}
+}
+
 .button-sm {
     padding: (($button-form-sm--height - get-line-height(button) - ($button-form--border-width * 2)) * 0.5) ($button-sm--padding-h - $button-form--border-width);
 	height: $button-form-sm--height;

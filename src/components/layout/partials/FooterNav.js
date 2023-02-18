@@ -1,6 +1,8 @@
 import React from 'react';
 import classNames from 'classnames';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
+import Button from '../../elements/Button';
 
 const FooterNav = ({
   className,
@@ -12,6 +14,8 @@ const FooterNav = ({
     className
   );
 
+  const { t } = useTranslation();
+
   return (
     <nav
       {...props}
@@ -19,10 +23,10 @@ const FooterNav = ({
     >
       <ul className="list-reset">
         <li>
-          <Link to="#0">Contact</Link>
+          <a href={t('cta.email')}>Contact</a>
         </li>
         <li>
-          <Link to="#0">About us</Link>
+          <Link to="/about">About us</Link>
         </li>
       </ul>
     </nav>
