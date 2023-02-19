@@ -73,8 +73,8 @@ const Values = ({
                                     </p>
                                 </div>
                                 <div className='mb-64'>
-                                    <p className='text-large'>Tell me something to make people want to meet the team</p>
-                                    <Link to={'/about'} className="button">Meet the team</Link>
+                                    <p className='text-large'>{t('values.teamHeader')}</p>
+                                    <Link to={'/about'} className="button">{t('values.meetTeam')}</Link>
                                 </div>
                             </div>
 

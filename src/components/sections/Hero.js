@@ -47,18 +47,12 @@ const Hero = ({
             {...props}
             className={outerClasses}
         >
-            <div className="container pb-64">
-                {/*<div className="full-height center-content-mobile center-content-desktop reveal-from-left">
-                    <Image
-                        src={require('./../../assets/images/logo.svg').default}
-                        alt="SPAICE"
-                        width={500}
-                        height={700} />}
-                        <div className="container">*/}
-                        <h3 className="m-0 slogan pr-128 shadow-text" data-reveal-delay="400">
-                            {t('hero.slogan')}
-                        </h3>
-                        <Link to="features" className='button mt-16' smooth={true} spy={true}>{t('hero.learn')}</Link>
+            <div className="container full-height bottom-content-desktop bottom-content-mobile">
+                
+                <h3 className="m-0 slogan pr-128 mb-8 shadow-text" data-reveal-delay="400">
+                    {t('hero.slogan')}
+                </h3>
+                <Link to="features" className='button mt-16' smooth={true} spy={true}>{t('hero.learn')}</Link>
                         
             </div>
         </section>

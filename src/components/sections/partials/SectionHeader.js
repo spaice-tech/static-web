@@ -23,6 +23,7 @@ const SectionHeader = ({
   link,
   children,
   tag,
+  stretch,
   ...props
 }) => {
 
@@ -30,6 +31,11 @@ const SectionHeader = ({
     'section-header',
     className
   );
+
+  const containerClasses = classNames(
+    stretch && 'container-stretch',
+    !stretch && 'container'
+);
 
   const Component = tag;
 
@@ -41,7 +47,7 @@ const SectionHeader = ({
           className={classes}
           id={"section-header mb-0"}
         >
-          <div className="container">
+          <div className={containerClasses}>
             {children}
             {data.title &&
               <Component className={
@@ -54,7 +60,7 @@ const SectionHeader = ({
               <p className="m-0 text-large text-color-high">{data.paragraph}</p>
             }
             {data.paragraph && link &&
-              <Link className="m-0 text-large text-color-high" to={link}>{data.paragraph}</Link>
+              <Link className="m-0 text-large button" to={link}>{data.paragraph}</Link>
             }
           </div>
         </div>

@@ -34,37 +34,26 @@ const FeaturesTiles = ({
     );
 
     const innerClasses = classNames(
-        'features-tiles-inner section-inner',
+        'features-tiles-inner section-inner full-height center-content-desktop',
         topDivider && 'has-top-divider',
         bottomDivider && 'has-bottom-divider',
         'pb-0'
     );
 
     const tilesClasses = classNames(
-        'tiles-wrap center-content',
+        'tiles-wrap',
         pushLeft && 'push-left'
     );
 
     const { t } = useTranslation();
 
-    const createTile = (image, title, description) => {
+    const createTile = (title, num) => {
         return (
             <div className="tiles-item reveal-from-bottom">
                 <div className="tiles-item-inner">
-                    <div className="features-tiles-item-header">
-                        {/*<div className="features-tiles-item-image mb-16">
-                            <div className='m-16'>
-                                <Image
-                                    src={image}
-                                    alt={title}
-                                    width={48}
-                                    height={48} />
-                            </div>
-                        </div>*/}
-                    </div>
-                    <div className="features-tiles-item-content">
-                        {<h4 className="mt-0 mb-8 text-color-primary-1">{title}</h4>}
-                        <p className="m-0 text-sm">{description}</p>
+                    <div className="features-tiles-item-content has-top-divider-thick">
+                        <p className="mt-8 mb-0 text-tile">{title}</p>
+                        <h3 className="pl-32 mt-0 mb-8 text-color-primary-1">{num}</h3>
                     </div>
                 </div>
             </div>
@@ -76,31 +65,48 @@ const FeaturesTiles = ({
             {...props}
             className={outerClasses}
         >
-            <div className="container" id="features">
+            <div className="container-stretch" id="features">
                 <div className={innerClasses}>
+                    <SectionHeader data={{
+                        title: t('tiles.headerDebrisRemoval'),
+                        paragraph: t('tiles.paragraphDebrisRemoval')
+                    }} stretch={true} />
+
                     <div className={tilesClasses}>
                         {
-                            createTile(require('./../../assets/images/satellite.png').default,
-                                t('tiles.rangeSteelsTitle'),
-                                t('tiles.rangeSteelsDescription'))
+                            createTile(
+                                t('tiles.satellitesLaunchedTitle'),
+                                t('tiles.satellitesLaunchedNum'))
                         }
                         {
-                            createTile(require('./../../assets/images/break.png').default,
-                                t('tiles.varietyTechnologiesTitle'),
-                                t('tiles.varietyTechnologiesDescription'))
+                            createTile(
+                                t('tiles.inactiveSatellitesTitle'),
+                                t('tiles.inactiveSatellitesNum'))
                         }
                         {
-                            createTile(require('./../../assets/images/exponential.png').default,
-                                t('tiles.experienceTitle'),
-                                t('tiles.experienceDescription'))
+                            createTile(
+                                t('tiles.launchesDecadeTitle'),
+                                t('tiles.launchesDecadeNum'))
+                        }
+                        {
+                            createTile(
+                                t('tiles.avgLifeTitle'),
+                                t('tiles.avgLifeNum'))
+                        }
+                        {
+                            createTile(
+                                t('tiles.totalDebrisTitle'),
+                                t('tiles.totalDebrisNum'))
+                        }
+                        {
+                            createTile(
+                                t('tiles.trackableDebrisTitle'),
+                                t('tiles.trackableDebrisNum'))
                         }
 
                     </div>
                     
-                    <SectionHeader data={{
-                        title: t('tiles.headerDebrisRemoval'),
-                        paragraph: t('tiles.paragraphDebrisRemoval')
-                    }} className="center-content" />
+                    
             
                 </div>
 

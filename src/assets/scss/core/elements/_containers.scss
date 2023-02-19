@@ -12,6 +12,10 @@
 	}
 }
 
+.container-stretch {
+    margin: 0 5%;
+}
+
 .container {
 	max-width: $container--width + ( $container--padding__desktop * 2 );
 }

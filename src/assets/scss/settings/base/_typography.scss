@@ -5,13 +5,20 @@ $font--import:      'Inter:400,500,600,700,800';
 $font--import2:     'Playfair+Display:400,500,600,700,800';
 
 // The font set
-$font--family: (
+/*$font--family: (
     logo:       '"Inter", sans-serif',
 	heading: 	'"Inter", sans-serif',
 	base:		'"Inter", sans-serif',
 	code: 		'Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace',
-	pre: 		'"Courier 10 Pitch", Courier, monospace',
-    slogan:     '"Playfair+Display"'
+	pre: 		'"Courier 10 Pitch", Courier, monospace'
+);*/
+
+$font--family: (
+    logo:       '"Roboto", sans-serif',
+	heading: 	'"Robot", sans-serif',
+	base:		'"Roboto", sans-serif',
+	code: 		'Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace',
+	pre: 		'"Courier 10 Pitch", Courier, monospace'
 );
 
 // The typographic scale
@@ -44,7 +51,7 @@ $font--size: (
 	code: 			'eta',
 	pre: 			'eta',
 	table: 			'eta',
-    heading:         'beta',
+    heading:         'alpha_mob',
 	// ↓ Desktop (set to null if font size won't change on desktop)
 	h1-desktop:		'alpha',
 	h2-desktop:		'beta',

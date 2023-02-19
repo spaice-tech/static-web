@@ -154,6 +154,10 @@ img.has-shadow {
     @include divider(before);
 }
 
+.has-top-divider-thick {
+    @include divider-thick(before);
+}
+
 .has-bottom-divider {
     @include divider(after);
 }
@@ -572,6 +576,25 @@ img.has-shadow {
 		}
 	}
 
+    .bottom-content-mobile {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-end;
+        flex-direction: column;
+        padding-bottom: 30%;
+        
+		img,
+		svg,
+		video {
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.button-group {
+			justify-content: center;
+		}
+	}
+
 	// Spacing, spacers
 	.spacer-4-mobile {
 		padding-top: 4px;
@@ -622,9 +645,10 @@ img.has-shadow {
 
     .bottom-content-desktop {
         display: flex;
-        align-items: flex-end;
+        align-items: flex-start;
         justify-content: flex-end;
         flex-direction: column;
+        padding-bottom: 3%;
         
 		img,
 		svg,
@@ -640,7 +664,7 @@ img.has-shadow {
 
 	.center-content-desktop {
         display: flex;
-        align-items: center;
+        //align-items: center;
         justify-content: center;
         flex-direction: column;
         

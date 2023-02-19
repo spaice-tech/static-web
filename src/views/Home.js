@@ -12,8 +12,8 @@ const Home = () => {
     return (
         <>
             <Hero invertMobile topDivider imageFill  /> 
-            <BusinessTechVision topDivider />
             <FeaturesTiles topDivider/>
+            <BusinessTechVision topDivider />
             <FeaturesSplit invertMobile topDivider imageFill />
             <Values invertMobile topDivider imageFill />
             <Cta split />

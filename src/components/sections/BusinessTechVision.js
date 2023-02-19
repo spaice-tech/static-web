@@ -76,7 +76,7 @@ const BusinessTechVision = ({
             {...props}
             className={outerClasses}
         >
-            <div className="container" id="features">
+            <div className="container-stretch" id="features">
                 <div className={innerClasses}>
                     <div className={tilesClasses}>
                         {

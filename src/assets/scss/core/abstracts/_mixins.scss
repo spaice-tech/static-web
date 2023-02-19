@@ -140,6 +140,16 @@
 	}
 }
 
+@mixin divider-mix-thick($layout: false) {
+	display: block;
+	height: 3px;
+	@if ( $layout == 'inverse' ) {
+		background: color-border(divider-inverse);
+	} @else {
+		background: color-border(divider);
+	}
+}
+
 @mixin divider($type: false, $layout: false) {
 	@if ( $type == 'before' ) {
 		position: relative;
@@ -165,6 +175,34 @@
 		}
 	} @else {
 		@include divider-mix($layout);
+	}
+}
+
+@mixin divider-thick($type: false, $layout: false) {
+	@if ( $type == 'before' ) {
+		position: relative;
+
+		&::before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			@include divider-mix-thick($layout);
+		}
+	} @else if ($type == 'after') {
+		position: relative;
+
+		&::after {
+			content: '';
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			@include divider-mix-thick($layout);
+		}
+	} @else {
+		@include divider-mix-thick($layout);
 	}
 }
 
