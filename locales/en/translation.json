@@ -1,11 +1,11 @@
 {
     "hero": {
-        "slogan": "Building the future of sustainable space navigation using AI",
+        "slogan": "Pioneering AI in space",
         "learn": "Learn more"
     },
     "tiles": {
         "headerDebrisRemoval": "SPAICE is a solution for sustainability in space",
-        "paragraphDebrisRemoval": "Relying on the latest advancments on AI to enable autonomous debris removal",
+        "paragraphDebrisRemoval": "Relying on the latest advancements in AI to enable autonomous debris removal and satellite life extension",
         "rangeSteelsTitle": "+8250 satellites orbiting the earth",
         "rangeSteelsDescription": "",
         "varietyTechnologiesTitle": "+40% of orbiting satellites are inactive",
@@ -18,14 +18,14 @@
         "poseEstimationHeader": "Deep Learning based perception algorithms to accurately estimate the position and track the target",
         "poseEstimationDescription": "Suitable for cooperative and non-cooperative targets",
         "navigation": "Navigation",
-        "navigationHeader": "Exploit orbital dynamics and cutting-edge motion planning technologies to consciously navigate towards the goal",
-        "navigationDescription": "Orbital dynamics is not a limit",
+        "navigationHeader": "Exploit cutting-edge motion planning technologies to consciously navigate towards the goal",
+        "navigationDescription": "Integrating orbital dynamics to achieve the optimal path",
         "docking": "Docking",
         "dockingHeader": "Our trained policies offer the best control strategy for multi-purpose docking",
-        "dockingDescription": "A precise docking enables the servicing, refueling or removal of any satellite",
+        "dockingDescription": "A precise docking enables several ad-hoc services",
         "onBoard": "On-board operations",
-        "onBoardHeader": "Intelligent robotic manipulation solutions for on satellite operations and debris removal",
-        "onBoardDescription": "We enlarge the lifetime of satellites by performing maintenance operations"
+        "onBoardHeader": "Intelligent robotic manipulation solutions for on-satellite operations and debris removal",
+        "onBoardDescription": "We extend the lifespan of satellites by performing maintenance operations"
     },
     "cta": {
         "header": "The beginning of a new in-orbit servicing era",
@@ -34,8 +34,8 @@
         "email": "mailto:contact@spaice.tech?subject=Intrested in SPAICE"
     },
     "testimonial": {
-        "header": "Autonomous navigation is lifting off",
-        "paragraph": "Keep me posted"
+        "header": "Autonomous navigation for space is lifting off",
+        "paragraph": "Check the latest news"
     },
     "team": {
         "header": "Management team",
@@ -47,7 +47,9 @@
     },
     "values": {
         "header": "The potential of SPAICE enables endless applications",
-        "paragraph": "This represents our unique value proposition"
+        "paragraph": "This represents our unique value proposition",
+        "teamHeader": "SPAICE is powered by engineers from the best universities in Europe",
+        "meetTeam": "Meet the team"
     },
     "businessTechVision": {
         "business": "Our Business",
@@ -55,7 +57,7 @@
         "vision": "Our Vision",
         "businessParagraph": "Autonomously identifying, approaching,  and docking in-space targets  to extend satellites' life  and remove orbiting debris",
         "technologyParagraph": "AI-based end-to-end pipeline  for autonomous navigation in space, deploying the power of latest software advancement",
-        "visionParagraph": "Impacting space navigation  empowering the market expansion towards a more reliable and sustainable circular space mobility"
+        "visionParagraph": "Impacting space navigation  empowering the market expansion towards a more reliable and sustainable circular space enconomy"
     },
     "news": {
         "header": "News"
