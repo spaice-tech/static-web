@@ -1,28 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.95c19b61.chunk.css",
-    "main.js": "/static/js/main.2bc20a75.chunk.js",
-    "main.js.map": "/static/js/main.2bc20a75.chunk.js.map",
+    "main.css": "/static/css/main.9d9d007b.chunk.css",
+    "main.js": "/static/js/main.d701c183.chunk.js",
+    "main.js.map": "/static/js/main.d701c183.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c21562f0.js",
     "runtime-main.js.map": "/static/js/runtime-main.c21562f0.js.map",
     "static/js/2.452dee2c.chunk.js": "/static/js/2.452dee2c.chunk.js",
     "static/js/2.452dee2c.chunk.js.map": "/static/js/2.452dee2c.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.95c19b61.chunk.css.map": "/static/css/main.95c19b61.chunk.css.map",
+    "static/css/main.9d9d007b.chunk.css.map": "/static/css/main.9d9d007b.chunk.css.map",
     "static/js/2.452dee2c.chunk.js.LICENSE.txt": "/static/js/2.452dee2c.chunk.js.LICENSE.txt",
-    "static/media/SPAICE_values.svg": "/static/media/SPAICE_values.9dd99665.svg",
-    "static/media/break.png": "/static/media/break.0db004e8.png",
+    "static/media/SPAICE_values.svg": "/static/media/SPAICE_values.0893a640.svg",
     "static/media/business.svg": "/static/media/business.72d34ed3.svg",
     "static/media/style.scss": "/static/media/space_debris.17320c02.jpg",
     "static/media/docking.jpg": "/static/media/docking.fa77cf2e.jpg",
     "static/media/ethz.png": "/static/media/ethz.6a08eb57.png",
-    "static/media/exponential.png": "/static/media/exponential.07d77c63.png",
     "static/media/getFetch.cjs": "/static/media/getFetch.5fde86e3.cjs",
     "static/media/guillem.jpg": "/static/media/guillem.8b5cb9d8.jpg",
     "static/media/imperial_college.png": "/static/media/imperial_college.7f294d18.png",
     "static/media/imprsis.png": "/static/media/imprsis.0db4b52e.png",
     "static/media/lasalle.png": "/static/media/lasalle.5fa91350.png",
-    "static/media/logo.svg": "/static/media/logo.9510f1ee.svg",
+    "static/media/logo.svg": "/static/media/logo.7d5553fa.svg",
     "static/media/matteo.jpg": "/static/media/matteo.d8189fb3.jpg",
     "static/media/navigation.png": "/static/media/navigation.e2560919.png",
     "static/media/nicholas.jpg": "/static/media/nicholas.bc1579f4.jpg",
@@ -30,7 +28,6 @@
     "static/media/pose_estimation.png": "/static/media/pose_estimation.7cd24dd2.png",
     "static/media/robot-manipulation.jpeg": "/static/media/robot-manipulation.cc3b2e1b.jpeg",
     "static/media/ronald.png": "/static/media/ronald.a50530cf.png",
-    "static/media/satellite.png": "/static/media/satellite.3a7bf8c5.png",
     "static/media/technology.svg": "/static/media/technology.7820e317.svg",
     "static/media/unina_1.png": "/static/media/unina_1.b2e2868d.png",
     "static/media/view.svg": "/static/media/view.9d1a7826.svg"
@@ -38,7 +35,7 @@
   "entrypoints": [
     "static/js/runtime-main.c21562f0.js",
     "static/js/2.452dee2c.chunk.js",
-    "static/css/main.95c19b61.chunk.css",
-    "static/js/main.2bc20a75.chunk.js"
+    "static/css/main.9d9d007b.chunk.css",
+    "static/js/main.d701c183.chunk.js"
   ]
 }
