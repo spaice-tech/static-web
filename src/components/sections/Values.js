@@ -3,7 +3,6 @@ import classNames from 'classnames';
 import { SectionSplitProps } from '../../utils/SectionProps';
 import Image from '../elements/Image';
 import { Link } from 'react-router-dom';
-
 import { useTranslation } from 'react-i18next';
 
 const propTypes = {
@@ -53,7 +52,6 @@ const Values = ({
 
     const { t } = useTranslation();
 
-
     return (
         <section
             {...props}
@@ -61,41 +59,28 @@ const Values = ({
         >
             <div className="container">
                 <div className={innerClasses}>
-                    <div className={splitClasses}>
-                        <div className="split-item-large">
-                            <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item-large">
-                                <div>
-                                    <h3 className="mt-0 mb-12 p-0">
-                                        {t('values.header')}
-                                    </h3>
-                                    <p className="mt-8">
-                                        {t('values.paragraph')}
-                                    </p>
-                                </div>
-                                <div className='mb-64'>
-                                    <p className='text-large'>{t('values.teamHeader')}</p>
-                                    <Link to={'/about'} className="button">{t('values.meetTeam')}</Link>
-                                </div>
-                            </div>
+                    <h3 className="mt-0 mb-12 p-0">
+                        {t('values.header')}
+                    </h3>
+                    <p className="mt-8">
+                        {t('values.paragraph')}
+                    </p>
 
-                            <div className={
-                                classNames(
-                                    'split-item-image center-content-mobile reveal-from-bottom',
-                                    imageFill && 'split-item-image-fill'
-                                )}
-                                data-reveal-container=".split-item-large">
-                                <Image
-                                    src={require('./../../assets/images/SPAICE_values.svg').default}
-                                    alt="SPAICE values"
-                                    width={528}
-                                    height={396} />
-                            </div>
-                        </div>
-
+                    <div className='center-content pt-32'>
+                        <Image
+                            src={require('./../../assets/images/SPAICE_values.svg').default}
+                            alt="SPAICE values"
+                            width='100%'/>
                     </div>
+                    
+                    <div className='mt-32 mb-64'>
+                        <p className='text-large'>{t('values.teamHeader')}</p>
+                        <Link to={'/about'} className="button">{t('values.meetTeam')}</Link>
+                    </div>
+
                 </div>
             </div>
-        </section>
+        </section >
     );
 }
 

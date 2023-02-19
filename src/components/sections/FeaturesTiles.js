@@ -34,7 +34,7 @@ const FeaturesTiles = ({
     );
 
     const innerClasses = classNames(
-        'features-tiles-inner section-inner full-height center-content-desktop',
+        'features-tiles-inner section-inner full-height-tiles center-content-desktop',
         topDivider && 'has-top-divider',
         bottomDivider && 'has-bottom-divider',
         'pb-0'

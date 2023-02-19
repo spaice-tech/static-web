@@ -53,6 +53,11 @@
 	}
 }
 
+.full-height-tiles {
+    min-height: 100vh;
+    margin-bottom: 10%;
+}
+
 @include media( '>medium' ) {
 
 	.features-tiles {
