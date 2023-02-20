@@ -3,6 +3,8 @@ import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import Image from '../elements/Image';
 
+import technology from './../../assets/images/technology.svg';
+
 import { useTranslation } from 'react-i18next';
 
 const propTypes = {
@@ -80,17 +82,17 @@ const BusinessTechVision = ({
                 <div className={innerClasses}>
                     <div className={tilesClasses}>
                         {
-                            createTile(require('./../../assets/images/technology.svg').default,
+                            createTile(require('./../../assets/images/technology.png').default,
                                 t('businessTechVision.technology'),
                                 t('businessTechVision.technologyParagraph'))
                         }
                         {
-                            createTile(require('./../../assets/images/business.svg').default,
+                            createTile(require('./../../assets/images/business.png').default,
                                 t('businessTechVision.business'),
                                 t('businessTechVision.businessParagraph'))
                         }
                         {
-                            createTile(require('./../../assets/images/view.svg').default,
+                            createTile(require('./../../assets/images/view.png').default,
                                 t('businessTechVision.vision'),
                                 t('businessTechVision.visionParagraph'))
                         }

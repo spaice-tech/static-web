@@ -18,8 +18,8 @@ const root = createRoot(document.getElementById('root'));
 const companyStructuredData = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "SpAIce",
-    description: ""
+    name: "SPAICE",
+    description: "SPAICE is a Software-as-a-Service provider that tackles navigation in space. They cover the whole pipeline, from target detection (satellite/debris) to docking operations, including tracking and fully autonomous navigation and control. SPAICE's approach is based on AI and Computer Vision."
 };
 
 root.render(

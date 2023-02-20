@@ -4,6 +4,7 @@ import { SectionSplitProps } from '../../utils/SectionProps';
 import Image from '../elements/Image';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import useWindowDimensions from '../../utils/WindowSize';
 
 const propTypes = {
     ...SectionSplitProps.types
@@ -43,14 +44,16 @@ const Values = ({
         bottomDivider && 'has-bottom-divider'
     );
 
-    const splitClasses = classNames(
+    /*const splitClasses = classNames(
         'split-wrap',
         invertMobile && 'invert-mobile',
         invertDesktop && 'invert-desktop',
         alignTop && 'align-top'
-    );
+    );*/
 
     const { t } = useTranslation();
+
+    const { height, width } = useWindowDimensions();
 
     return (
         <section
@@ -68,7 +71,9 @@ const Values = ({
 
                     <div className='center-content pt-32'>
                         <Image
-                            src={require('./../../assets/images/SPAICE_values.svg').default}
+                            src={require(
+                                width > 640 ? './../../assets/images/SPAICE_values.svg' : './../../assets/images/SPAICE_values_mobile.png'
+                                ).default}
                             alt="SPAICE values"
                             width='100%'/>
                     </div>

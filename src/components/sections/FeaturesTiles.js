@@ -49,7 +49,7 @@ const FeaturesTiles = ({
 
     const createTile = (title, num) => {
         return (
-            <div className="tiles-item reveal-from-bottom">
+            <div className="tiles-numbers-item pr-32 pl-32 mt-32 reveal-from-bottom">
                 <div className="tiles-item-inner">
                     <div className="features-tiles-item-content has-top-divider-thick">
                         <p className="mt-8 mb-0 text-tile">{title}</p>
