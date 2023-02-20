@@ -25,7 +25,7 @@
     "url": "https://github.com/spaice-navigation/static-web.git"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && cat > build/CNAME << EOF\nspaice.tech",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
