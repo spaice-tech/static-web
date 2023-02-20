@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.09ff0791.chunk.css",
-    "main.js": "/static/js/main.4286c79c.chunk.js",
-    "main.js.map": "/static/js/main.4286c79c.chunk.js.map",
+    "main.css": "/static/css/main.d892b19a.chunk.css",
+    "main.js": "/static/js/main.2e846f91.chunk.js",
+    "main.js.map": "/static/js/main.2e846f91.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c21562f0.js",
     "runtime-main.js.map": "/static/js/runtime-main.c21562f0.js.map",
-    "static/js/2.6a4c6f41.chunk.js": "/static/js/2.6a4c6f41.chunk.js",
-    "static/js/2.6a4c6f41.chunk.js.map": "/static/js/2.6a4c6f41.chunk.js.map",
+    "static/js/2.32c1dd77.chunk.js": "/static/js/2.32c1dd77.chunk.js",
+    "static/js/2.32c1dd77.chunk.js.map": "/static/js/2.32c1dd77.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.09ff0791.chunk.css.map": "/static/css/main.09ff0791.chunk.css.map",
-    "static/js/2.6a4c6f41.chunk.js.LICENSE.txt": "/static/js/2.6a4c6f41.chunk.js.LICENSE.txt",
+    "static/css/main.d892b19a.chunk.css.map": "/static/css/main.d892b19a.chunk.css.map",
+    "static/js/2.32c1dd77.chunk.js.LICENSE.txt": "/static/js/2.32c1dd77.chunk.js.LICENSE.txt",
     "static/media/SPAICE_values.svg": "/static/media/SPAICE_values.413ea471.svg",
-    "static/media/SPAICE_values_mobile.svg": "/static/media/SPAICE_values_mobile.cce21e53.svg",
-    "static/media/business.svg": "/static/media/business.72d34ed3.svg",
+    "static/media/SPAICE_values_mobile.png": "/static/media/SPAICE_values_mobile.9d146448.png",
+    "static/media/business.png": "/static/media/business.85e48292.png",
     "static/media/style.scss": "/static/media/space_debris.17320c02.jpg",
     "static/media/docking.jpg": "/static/media/docking.fa77cf2e.jpg",
     "static/media/ethz.png": "/static/media/ethz.6a08eb57.png",
@@ -29,14 +29,15 @@
     "static/media/pose_estimation.png": "/static/media/pose_estimation.7cd24dd2.png",
     "static/media/robot-manipulation.jpeg": "/static/media/robot-manipulation.cc3b2e1b.jpeg",
     "static/media/ronald.png": "/static/media/ronald.a50530cf.png",
-    "static/media/technology.svg": "/static/media/technology.7820e317.svg",
+    "static/media/technology.7820e317.svg": "/static/media/technology.7820e317.svg",
+    "static/media/technology.png": "/static/media/technology.fb2b19cc.png",
     "static/media/unina_1.png": "/static/media/unina_1.b2e2868d.png",
-    "static/media/view.svg": "/static/media/view.9d1a7826.svg"
+    "static/media/view.png": "/static/media/view.f380a365.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c21562f0.js",
-    "static/js/2.6a4c6f41.chunk.js",
-    "static/css/main.09ff0791.chunk.css",
-    "static/js/main.4286c79c.chunk.js"
+    "static/js/2.32c1dd77.chunk.js",
+    "static/css/main.d892b19a.chunk.css",
+    "static/js/main.2e846f91.chunk.js"
   ]
 }
