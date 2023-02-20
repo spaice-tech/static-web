@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.3d66cad2.chunk.css",
-    "main.js": "/static/js/main.d701c183.chunk.js",
-    "main.js.map": "/static/js/main.d701c183.chunk.js.map",
+    "main.css": "/static/css/main.4c8c5fd5.chunk.css",
+    "main.js": "/static/js/main.6ed3a827.chunk.js",
+    "main.js.map": "/static/js/main.6ed3a827.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c21562f0.js",
     "runtime-main.js.map": "/static/js/runtime-main.c21562f0.js.map",
     "static/js/2.452dee2c.chunk.js": "/static/js/2.452dee2c.chunk.js",
     "static/js/2.452dee2c.chunk.js.map": "/static/js/2.452dee2c.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.3d66cad2.chunk.css.map": "/static/css/main.3d66cad2.chunk.css.map",
+    "static/css/main.4c8c5fd5.chunk.css.map": "/static/css/main.4c8c5fd5.chunk.css.map",
     "static/js/2.452dee2c.chunk.js.LICENSE.txt": "/static/js/2.452dee2c.chunk.js.LICENSE.txt",
     "static/media/SPAICE_values.svg": "/static/media/SPAICE_values.0893a640.svg",
     "static/media/business.svg": "/static/media/business.72d34ed3.svg",
@@ -20,7 +20,7 @@
     "static/media/imperial_college.png": "/static/media/imperial_college.7f294d18.png",
     "static/media/imprsis.png": "/static/media/imprsis.0db4b52e.png",
     "static/media/lasalle.png": "/static/media/lasalle.5fa91350.png",
-    "static/media/logo.svg": "/static/media/logo.7d5553fa.svg",
+    "static/media/logo.svg": "/static/media/logo.7df88c34.svg",
     "static/media/matteo.jpg": "/static/media/matteo.d8189fb3.jpg",
     "static/media/navigation.png": "/static/media/navigation.e2560919.png",
     "static/media/nicholas.jpg": "/static/media/nicholas.bc1579f4.jpg",
@@ -35,7 +35,7 @@
   "entrypoints": [
     "static/js/runtime-main.c21562f0.js",
     "static/js/2.452dee2c.chunk.js",
-    "static/css/main.3d66cad2.chunk.css",
-    "static/js/main.d701c183.chunk.js"
+    "static/css/main.4c8c5fd5.chunk.css",
+    "static/js/main.6ed3a827.chunk.js"
   ]
 }
