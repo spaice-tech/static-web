@@ -67,7 +67,11 @@
         "visionParagraph": "Impacting space navigation  empowering the market expansion towards a more reliable and sustainable circular space enconomy"
     },
     "news": {
-        "header": "News"
+        "header": "News",
+        "news1": {
+            "title": "SPAICE awarded at T-Tec 2022",
+            "description": "SPAICE's innovative technology has been awarded at T-Tec 2022 in the context of the European Space Conference in Brussels."
+        }
     },
     "header": {
         "about": "About us",
