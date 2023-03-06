@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.c5c9de97.chunk.css",
-    "main.js": "/static/js/main.2854ef06.chunk.js",
-    "main.js.map": "/static/js/main.2854ef06.chunk.js.map",
+    "main.css": "/static/css/main.c3caa4b2.chunk.css",
+    "main.js": "/static/js/main.b1c4ea8b.chunk.js",
+    "main.js.map": "/static/js/main.b1c4ea8b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c21562f0.js",
     "runtime-main.js.map": "/static/js/runtime-main.c21562f0.js.map",
     "static/js/2.a4e79798.chunk.js": "/static/js/2.a4e79798.chunk.js",
     "static/js/2.a4e79798.chunk.js.map": "/static/js/2.a4e79798.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.c5c9de97.chunk.css.map": "/static/css/main.c5c9de97.chunk.css.map",
+    "static/css/main.c3caa4b2.chunk.css.map": "/static/css/main.c3caa4b2.chunk.css.map",
     "static/js/2.a4e79798.chunk.js.LICENSE.txt": "/static/js/2.a4e79798.chunk.js.LICENSE.txt",
     "static/media/SPAICE_values.svg": "/static/media/SPAICE_values.413ea471.svg",
     "static/media/SPAICE_values_mobile.png": "/static/media/SPAICE_values_mobile.f6f33e3f.png",
@@ -39,7 +39,7 @@
   "entrypoints": [
     "static/js/runtime-main.c21562f0.js",
     "static/js/2.a4e79798.chunk.js",
-    "static/css/main.c5c9de97.chunk.css",
-    "static/js/main.2854ef06.chunk.js"
+    "static/css/main.c3caa4b2.chunk.css",
+    "static/js/main.b1c4ea8b.chunk.js"
   ]
 }

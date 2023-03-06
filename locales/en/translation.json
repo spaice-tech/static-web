@@ -55,16 +55,18 @@
     "values": {
         "header": "The potential of SPAICE enables endless applications",
         "paragraph": "This represents our unique value proposition",
-        "teamHeader": "SPAICE is powered by engineers from the best universities in Europe",
+        "teamHeader": "SPAICE is powered by engineers from the best universities",
         "meetTeam": "Meet the team"
     },
     "businessTechVision": {
         "business": "Our Business",
         "technology": "Our Technology",
         "vision": "Our Vision",
+        "partners": "Our Partners",
         "businessParagraph": "Autonomously identifying, approaching,  and docking in-space targets  to extend satellites' life  and remove orbiting debris",
         "technologyParagraph": "AI-based end-to-end pipeline  for autonomous navigation in space, deploying the power of latest software advancements",
-        "visionParagraph": "Impacting space navigation  empowering the market expansion towards a more reliable and sustainable circular space enconomy"
+        "visionParagraph": "Impacting space navigation  empowering the market expansion towards a more reliable and sustainable circular space enconomy",
+        "partnersParagraph": "We provide Software as a Service to space segment manufactureres and ground services providers"
     },
     "news": {
         "header": "News",
