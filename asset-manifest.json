@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.c3caa4b2.chunk.css",
-    "main.js": "/static/js/main.b1c4ea8b.chunk.js",
-    "main.js.map": "/static/js/main.b1c4ea8b.chunk.js.map",
+    "main.css": "/static/css/main.9b869e91.chunk.css",
+    "main.js": "/static/js/main.04172c5c.chunk.js",
+    "main.js.map": "/static/js/main.04172c5c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c21562f0.js",
     "runtime-main.js.map": "/static/js/runtime-main.c21562f0.js.map",
     "static/js/2.a4e79798.chunk.js": "/static/js/2.a4e79798.chunk.js",
     "static/js/2.a4e79798.chunk.js.map": "/static/js/2.a4e79798.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.c3caa4b2.chunk.css.map": "/static/css/main.c3caa4b2.chunk.css.map",
+    "static/css/main.9b869e91.chunk.css.map": "/static/css/main.9b869e91.chunk.css.map",
     "static/js/2.a4e79798.chunk.js.LICENSE.txt": "/static/js/2.a4e79798.chunk.js.LICENSE.txt",
     "static/media/SPAICE_values.svg": "/static/media/SPAICE_values.413ea471.svg",
     "static/media/SPAICE_values_mobile.png": "/static/media/SPAICE_values_mobile.f6f33e3f.png",
@@ -33,13 +33,14 @@
     "static/media/stanford.png": "/static/media/stanford.c517ffef.png",
     "static/media/technology.7820e317.svg": "/static/media/technology.7820e317.svg",
     "static/media/technology.png": "/static/media/technology.fb2b19cc.png",
+    "static/media/ttec-2.jpg": "/static/media/ttec-2.ffc49148.jpg",
     "static/media/unina_1.png": "/static/media/unina_1.b2e2868d.png",
     "static/media/view.png": "/static/media/view.f380a365.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c21562f0.js",
     "static/js/2.a4e79798.chunk.js",
-    "static/css/main.c3caa4b2.chunk.css",
-    "static/js/main.b1c4ea8b.chunk.js"
+    "static/css/main.9b869e91.chunk.css",
+    "static/js/main.04172c5c.chunk.js"
   ]
 }
