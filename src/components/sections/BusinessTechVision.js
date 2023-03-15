@@ -27,7 +27,7 @@ const BusinessTechVision = ({
 }) => {
 
     const outerClasses = classNames(
-        'features-tiles section mb-32',
+        'features-tiles section mb-64',
         topOuterDivider && 'has-top-divider',
         bottomOuterDivider && 'has-bottom-divider',
         hasBgColor && 'has-bg-color',
@@ -51,7 +51,7 @@ const BusinessTechVision = ({
 
     const createTile = (image, title, description) => {
         return (
-            <div className="tiles-item reveal-from-bottom">
+            <div className="tiles-4 reveal-from-bottom">
                 <div className="tiles-item-inner">
                     <div className="features-tiles-item-header">
                         <div className="features-tiles-item-image mb-16">
@@ -95,6 +95,11 @@ const BusinessTechVision = ({
                             createTile(require('./../../assets/images/view.png').default,
                                 t('businessTechVision.vision'),
                                 t('businessTechVision.visionParagraph'))
+                        }
+                        {
+                            createTile(require('./../../assets/images/partners.png').default,
+                                t('businessTechVision.partners'),
+                                t('businessTechVision.partnersParagraph'))
                         }
 
                     </div>

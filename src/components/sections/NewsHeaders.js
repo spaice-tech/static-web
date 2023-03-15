@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
 import { useTranslation } from 'react-i18next';
+import { useHistory } from "react-router-dom";
 
 const propTypes = {
     ...SectionProps.types,
@@ -27,7 +28,7 @@ const NewsHeaders = ({
 }) => {
 
     const outerClasses = classNames(
-        'cta section center-content-mobile reveal-from-bottom',
+        'section center-content-mobile reveal-from-bottom',
         topOuterDivider && 'has-top-divider',
         bottomOuterDivider && 'has-bottom-divider',
         hasBgColor && 'has-bg-color',
@@ -36,24 +37,26 @@ const NewsHeaders = ({
     );
 
     const innerClasses = classNames(
-        'cta-inner section-inner',
+        'header-inner section-inner',
         topDivider && 'has-top-divider',
         bottomDivider && 'has-bottom-divider'
     );
 
     const { t } = useTranslation();
+    const history = useHistory();
 
-    const createHeader = (title, description) => {
+    const createHeader = (title, description, link, background) => {
         return (
-            <div className='mt-32'>
+            <div className='mt-32 ttec-background'>
                 <div
                     className={innerClasses}
+                    onClick={() => {history.push(link)}}
                 >
-                    <div className="cta-slogan">
+                    <div className="">
                         <p className="m-0 text-header">
                             {title}
                         </p>
-                        <p className="m-0 text-color-high">
+                        <p className="m-0 text-color-high paragraph-shadow">
                             {description}
                         </p>
                     </div>
@@ -74,8 +77,8 @@ const NewsHeaders = ({
             
             <div className="container mt-32">
 
-                {createHeader(t('news.news1.title'), t('news.news1.description'))}
-                {createHeader(t('news.news2.title'), t('news.news2.description'))}
+                {createHeader(t('news.news1.title'), t('news.news1.description'), '/news/ttec', 'background-ttec')}
+                {/*createHeader(t('news.news2.title'), t('news.news2.description'))*/}
 
 
             </div>

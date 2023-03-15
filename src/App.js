@@ -14,6 +14,8 @@ import LayoutAbout from './layouts/LayoutAbout';
 import Home from './views/Home';
 import News from './views/News';
 import About from './views/About';
+import NewsTtec from './views/news/Ttec';
+import LayoutArticle from './layouts/LayoutArticle';
 
 // Initialize Google Analytics
 ReactGA.initialize(process.env.REACT_APP_GA_CODE);
@@ -48,6 +50,7 @@ const App = () => {
                     <AppRoute exact path="/" component={Home} layout={LayoutHero} />
                     <AppRoute exact path="/news" component={News} layout={LayoutNews} />
                     <AppRoute exact path="/about" component={About} layout={LayoutAbout} />
+                    <AppRoute exact path="/news/ttec" component={NewsTtec} layout={LayoutArticle} />
                 </Switch>
                 </ScrollToTop>
             )} />

@@ -1,6 +1,6 @@
 import React from 'react';
 //import ReactDOM from 'react-dom';
-import { Router } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import { createBrowserHistory } from "history";
 
 import { createRoot } from 'react-dom/client';
@@ -23,13 +23,13 @@ const companyStructuredData = {
 };
 
 root.render(
-    <Router history={history}>
+    <BrowserRouter history={history}>
         <App>
             <script type="application/ld+json">
             {JSON.stringify(companyStructuredData)}
         </script>
         </App>
-    </Router>
+    </BrowserRouter>
 );
 
 // If you want your app to work offline and load faster, you can change

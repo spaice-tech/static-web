@@ -41,3 +41,13 @@
     @include background('space_debris.jpg', 100%, 100%, top);
     opacity: 0.5;
 }
+
+.background-ttec::after {
+    @include background('/news/ttec.jpg', 100%, 100%, center);
+    opacity: 0.5;
+}
+
+.background-ttec-header::after {
+    @include background('/news/ttec-header.jpg', 100%, 100%, top);
+    opacity: 1;
+}

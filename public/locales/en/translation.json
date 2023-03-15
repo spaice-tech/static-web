@@ -47,26 +47,33 @@
         "header": "Management team",
         "advisory": "Advisory board",
         "matteoBackground": "Aerospace Engineer specialised in AI and ML, with a track record of experiences in fast-paced industries.",
-        "guillemBackground": "Electronics & Computer Science Engineer, specialised in AI and ML, doctorating in Robotics manipulation.",
+        "guillemBackground": "Electronics & Computer Science Engineer, specialised in AI and ML, doctorating in Robotic manipulation.",
         "nicholasBackground": "Aerospace Engineer specialised in Robotics, experienced in big tech companies.",
+        "carlotaBackground": "Computer Scientist, specialised in Robot Learning and AI, with extensive experience in world-leading labs and big tech companies.",
         "ronaldBackground": "Associate Professor at the University of Oxford, Computer Vision researcher with strong background in 3D Computer Vision and Computer Graphics."
     },
     "values": {
         "header": "The potential of SPAICE enables endless applications",
         "paragraph": "This represents our unique value proposition",
-        "teamHeader": "SPAICE is powered by engineers from the best universities in Europe",
+        "teamHeader": "SPAICE is powered by engineers from the best universities",
         "meetTeam": "Meet the team"
     },
     "businessTechVision": {
         "business": "Our Business",
         "technology": "Our Technology",
         "vision": "Our Vision",
+        "partners": "Our Partners",
         "businessParagraph": "Autonomously identifying, approaching,  and docking in-space targets  to extend satellites' life  and remove orbiting debris",
         "technologyParagraph": "AI-based end-to-end pipeline  for autonomous navigation in space, deploying the power of latest software advancements",
-        "visionParagraph": "Impacting space navigation  empowering the market expansion towards a more reliable and sustainable circular space enconomy"
+        "visionParagraph": "Impacting space navigation  empowering the market expansion towards a more reliable and sustainable circular space enconomy",
+        "partnersParagraph": "We provide Software as a Service to space segment manufactureres and ground services providers"
     },
     "news": {
-        "header": "News"
+        "header": "News",
+        "news1": {
+            "title": "SPAICE awarded at T-Tec 2022",
+            "description": "SPAICE's innovative technology has been awarded at T-Tec 2022 in the context of the European Space Conference in Brussels."
+        }
     },
     "header": {
         "about": "About us",

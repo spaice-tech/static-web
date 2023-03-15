@@ -129,7 +129,7 @@ const Team = ({
                         <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
                             {createProfile(
                                 require('./../../assets/images/guillem.jpg').default,
-                                'Guillem Garrofé',
+                                'Guillem Garrofé Montoliu',
                                 'Chief Technical Officer',
                                 background([
                                     t('team.guillemBackground'), // With experience in the research and development of robotic systems.',
@@ -152,6 +152,19 @@ const Team = ({
                                 [
                                     require('./../../assets/images/unina_1.png').default,
                                     require('./../../assets/images/ethz.png').default
+                                ]))}
+                        </div>
+                        <div className="tiles-item reveal-from-left" data-reveal-delay="200">
+                            {createProfile(
+                                require('./../../assets/images/carlota.png').default,
+                                'Carlota Parés Morlans',
+                                'Chief Operating Officer',
+                                background([
+                                    t('team.carlotaBackground'),
+                                ],
+                                [
+                                    require('./../../assets/images/lasalle.png').default,
+                                    require('./../../assets/images/stanford.png').default
                                 ]))}
                         </div>
                     </div>
