@@ -9,10 +9,20 @@
 }
 
 .news-text {
-    text-align: justify;
-    padding-left: 15%;
-    padding-right: 15%;
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 10%;
     color: color(high-contrast);
+}
+
+@include media( '<medium' ) {
+    .news-text {
+        text-align: left;
+        padding-left: 15%;
+        padding-right: 15%;
+        color: color(high-contrast);
+        @include font-size(xxs);
+    }
 }
 
 .news-header-ttec {
@@ -35,6 +45,10 @@
     text-shadow: 1px 1px 2px black;
 
     @include font-size(h2);
+}
+
+.text-date {
+    margin-left: 32px;
 }
 
 .paragraph-shadow {

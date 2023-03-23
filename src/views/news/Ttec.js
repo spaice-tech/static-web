@@ -47,12 +47,22 @@ const NewsTtec = ({
         >   
             <div className='news-header-ttec'>
                 <div className='container'>
-                    <p className='h2 text-header'>{t('news.news1.title')}</p>
+                    <p className='h2 text-header mb-0'>{t('news.news1.title')}</p>
+                    <p className='text-date'>25th of January</p>
                 </div>
             </div>
             
             <div className="container mt-32 news-text">
-                On January 24th, SPAICE, the team comprised of students and researchers from Imperial College (UK), International Max Planck Research School for Intelligent Systems (Germany), ETH Zurich (Switzerland), Stanford University (USA) and University of Oxford (UK), was <strong>awarded the second prize at the Telespazio Technology Contest</strong>, #T-TeC 2022. The ceremony was held in Brussels and presented by Leonardo's Coordinator of Space Activities and CEO of Telespazio, Luigi Pasquali, Leonardo's Chief Technology and Innovation Officer, Franco Ongaro, Telespazio's Head of Innovation and Technology Governance, Marco Brancati and the Italian astronaut Samantha Cristoforetti. Furthermore, other leading figures in the space industry attended the event, including the Director General of the European Space Agency (ESA), Josef Aschbacher, and the President of the Italian Space Agency (ASI), Giorgio Saccoccia.
+                On January 24th, SPAICE, the team comprised of students and researchers from 
+                Imperial College (UK), International Max Planck Research School for Intelligent 
+                Systems (Germany), ETH Zurich (Switzerland), Stanford University (USA) and University 
+                of Oxford (UK), was <strong>awarded the second prize at the Telespazio Technology 
+                Contest</strong>, #T-TeC 2022. The ceremony was held in Brussels and presented by Leonardo's 
+                Coordinator of Space Activities and CEO of Telespazio, Luigi Pasquali, Leonardo's Chief Technology 
+                and Innovation Officer, Franco Ongaro, Telespazio's Head of Innovation and Technology Governance, 
+                Marco Brancati and the Italian astronaut Samantha Cristoforetti. Furthermore, other leading figures 
+                in the space industry attended the event, including the Director General of the European Space 
+                Agency (ESA), Josef Aschbacher, and the President of the Italian Space Agency (ASI), Giorgio Saccoccia.
                 <br/><br/>
                 The Telespazio Technology Contest is an Open Innovation contest promoted by Leonardo and Telespazio, with the goal of promoting space technology innovation among the younger generation. This year, the contest saw the participation of <strong>20 projects from 21 universities in 12 countries</strong>, making it a truly international event.
                 <br/><br/>

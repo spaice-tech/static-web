@@ -3,7 +3,6 @@ import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import Image from '../elements/Image';
 
-import technology from './../../assets/images/technology.svg';
 
 import { useTranslation } from 'react-i18next';
 
