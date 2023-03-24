@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.a287fb9c.chunk.css",
-    "main.js": "/static/js/main.e1204876.chunk.js",
-    "main.js.map": "/static/js/main.e1204876.chunk.js.map",
+    "main.css": "/static/css/main.4cc0344a.chunk.css",
+    "main.js": "/static/js/main.a21fccd6.chunk.js",
+    "main.js.map": "/static/js/main.a21fccd6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c21562f0.js",
     "runtime-main.js.map": "/static/js/runtime-main.c21562f0.js.map",
     "static/js/2.41a13dab.chunk.js": "/static/js/2.41a13dab.chunk.js",
     "static/js/2.41a13dab.chunk.js.map": "/static/js/2.41a13dab.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.a287fb9c.chunk.css.map": "/static/css/main.a287fb9c.chunk.css.map",
+    "static/css/main.4cc0344a.chunk.css.map": "/static/css/main.4cc0344a.chunk.css.map",
     "static/js/2.41a13dab.chunk.js.LICENSE.txt": "/static/js/2.41a13dab.chunk.js.LICENSE.txt",
     "static/media/SPAICE_values.svg": "/static/media/SPAICE_values.413ea471.svg",
     "static/media/SPAICE_values_mobile.png": "/static/media/SPAICE_values_mobile.f6f33e3f.png",
@@ -56,7 +56,7 @@
   "entrypoints": [
     "static/js/runtime-main.c21562f0.js",
     "static/js/2.41a13dab.chunk.js",
-    "static/css/main.a287fb9c.chunk.css",
-    "static/js/main.e1204876.chunk.js"
+    "static/css/main.4cc0344a.chunk.css",
+    "static/js/main.a21fccd6.chunk.js"
   ]
 }
