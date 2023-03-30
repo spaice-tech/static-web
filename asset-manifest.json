@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.cd3c617d.chunk.css",
-    "main.js": "/static/js/main.a21fccd6.chunk.js",
-    "main.js.map": "/static/js/main.a21fccd6.chunk.js.map",
+    "main.css": "/static/css/main.5569d556.chunk.css",
+    "main.js": "/static/js/main.8c379e1d.chunk.js",
+    "main.js.map": "/static/js/main.8c379e1d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c21562f0.js",
     "runtime-main.js.map": "/static/js/runtime-main.c21562f0.js.map",
     "static/js/2.41a13dab.chunk.js": "/static/js/2.41a13dab.chunk.js",
     "static/js/2.41a13dab.chunk.js.map": "/static/js/2.41a13dab.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.cd3c617d.chunk.css.map": "/static/css/main.cd3c617d.chunk.css.map",
+    "static/css/main.5569d556.chunk.css.map": "/static/css/main.5569d556.chunk.css.map",
     "static/js/2.41a13dab.chunk.js.LICENSE.txt": "/static/js/2.41a13dab.chunk.js.LICENSE.txt",
     "static/media/SPAICE_values.svg": "/static/media/SPAICE_values.413ea471.svg",
     "static/media/SPAICE_values_mobile.png": "/static/media/SPAICE_values_mobile.f6f33e3f.png",
+    "static/media/booth.JPG": "/static/media/booth.56d068e3.JPG",
+    "static/media/style.scss": "/static/media/ttec.fc4cb332.jpg",
     "static/media/business.png": "/static/media/business.85e48292.png",
     "static/media/carlota.png": "/static/media/carlota.b747f6ff.png",
     "static/media/crewdragon1_enhanced.png": "/static/media/crewdragon1_enhanced.0c3945d0.png",
     "static/media/crewdragon1_synthetic.png": "/static/media/crewdragon1_synthetic.d57fd34f.png",
     "static/media/crewdragon2_enhanced.png": "/static/media/crewdragon2_enhanced.75030763.png",
     "static/media/crewdragon2_synthetic.png": "/static/media/crewdragon2_synthetic.a59c83af.png",
-    "static/media/style.scss": "/static/media/ttec.fc4cb332.jpg",
     "static/media/docking.jpg": "/static/media/docking.fa77cf2e.jpg",
     "static/media/docking_pose_estimation.gif": "/static/media/docking_pose_estimation.d7dd8f33.gif",
     "static/media/ethz.png": "/static/media/ethz.6a08eb57.png",
@@ -50,13 +51,14 @@
     "static/media/stanford.png": "/static/media/stanford.c517ffef.png",
     "static/media/technology.png": "/static/media/technology.fb2b19cc.png",
     "static/media/ttec-2.jpg": "/static/media/ttec-2.ffc49148.jpg",
+    "static/media/unify_panel.jpg": "/static/media/unify_panel.3a02e019.jpg",
     "static/media/unina_1.png": "/static/media/unina_1.b2e2868d.png",
     "static/media/view.png": "/static/media/view.f380a365.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c21562f0.js",
     "static/js/2.41a13dab.chunk.js",
-    "static/css/main.cd3c617d.chunk.css",
-    "static/js/main.a21fccd6.chunk.js"
+    "static/css/main.5569d556.chunk.css",
+    "static/js/main.8c379e1d.chunk.js"
   ]
 }
