@@ -173,6 +173,10 @@ img.has-shadow {
 	}
 }
 
+.left-content {
+    text-align: start;
+}
+
 // For centering content
 .center-content {
 	text-align: center;
@@ -512,6 +516,10 @@ img.has-shadow {
 
 .pl-32 {
 	padding-left: 32px;
+}
+
+.pl-128 {
+	padding-left: 128px;
 }
 
 // Spacing, spacers

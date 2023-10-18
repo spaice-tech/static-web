@@ -28,7 +28,7 @@ const NewsTtec = ({
 }) => {
 
     const outerClasses = classNames(
-        'cta section center-content-mobile reveal-from-bottom',
+        'news section center-content-mobile reveal-from-bottom',
         topOuterDivider && 'has-top-divider',
         bottomOuterDivider && 'has-bottom-divider',
         hasBgColor && 'has-bg-color',
@@ -45,7 +45,7 @@ const NewsTtec = ({
             {...props}
             className={outerClasses}
         >   
-            <div className='news-header-ttec'>
+            <div className='news-header-psw'>
                 <div className='container'>
                     <p className='h2 text-header mb-0'>{t('news.news1.title')}</p>
                     <p className='text-date'>25th of January</p>

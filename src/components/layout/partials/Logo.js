@@ -21,7 +21,7 @@ const Logo = ({
       <h1 className="m-0">
         <Link to="/">
             <Image
-                src={require('./../../../assets/images/logo.png').default}
+                src={require('./../../../assets/images/logo.png')}
                 alt="SPAICE"
                 height={48}
                 width={128} />

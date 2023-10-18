@@ -81,22 +81,22 @@ const BusinessTechVision = ({
                 <div className={innerClasses}>
                     <div className={tilesClasses}>
                         {
-                            createTile(require('./../../assets/images/technology.png').default,
+                            createTile(require('./../../assets/images/technology.png'),
                                 t('businessTechVision.technology'),
                                 t('businessTechVision.technologyParagraph'))
                         }
                         {
-                            createTile(require('./../../assets/images/business.png').default,
+                            createTile(require('./../../assets/images/business.png'),
                                 t('businessTechVision.business'),
                                 t('businessTechVision.businessParagraph'))
                         }
                         {
-                            createTile(require('./../../assets/images/view.png').default,
+                            createTile(require('./../../assets/images/view.png'),
                                 t('businessTechVision.vision'),
                                 t('businessTechVision.visionParagraph'))
                         }
                         {
-                            createTile(require('./../../assets/images/partners.png').default,
+                            createTile(require('./../../assets/images/partners.png'),
                                 t('businessTechVision.partners'),
                                 t('businessTechVision.partnersParagraph'))
                         }

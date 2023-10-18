@@ -114,57 +114,57 @@ const Team = ({
 
                         <div className="tiles-item reveal-from-right" data-reveal-delay="200">
                             {createProfile(
-                                require('./../../assets/images/matteo.jpg').default,
+                                require('./../../assets/images/matteo.jpg'),
                                 'Matteo Cuccorese',
                                 'Chief Executive Officer',
                                 background([
                                     t("team.matteoBackground"),
                                 ],
                                 [
-                                    require('./../../assets/images/unina_1.png').default,
-                                    require('./../../assets/images/imperial_college.png').default
+                                    require('./../../assets/images/unina_1.png'),
+                                    require('./../../assets/images/imperial_college.png')
                                 ]))}
                         </div>
 
                         <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
                             {createProfile(
-                                require('./../../assets/images/guillem.jpg').default,
+                                require('./../../assets/images/guillem.jpg'),
                                 'Guillem Garrofé Montoliu',
-                                'Chief Technical Officer',
+                                'Chief Technology Officer',
                                 background([
                                     t('team.guillemBackground'), // With experience in the research and development of robotic systems.',
                                 ],
                                 [
-                                    require('./../../assets/images/lasalle.png').default,
-                                    require('./../../assets/images/imperial_college.png').default,
-                                    require('./../../assets/images/imprsis.png').default
+                                    require('./../../assets/images/lasalle.png'),
+                                    require('./../../assets/images/imperial_college.png'),
+                                    require('./../../assets/images/imprsis.png')
                                 ]))}
                         </div>
 
                         <div className="tiles-item reveal-from-left" data-reveal-delay="200">
                             {createProfile(
-                                require('./../../assets/images/nicholas.jpg').default,
+                                require('./../../assets/images/nicholas.jpg'),
                                 'Nicholas Argenziano',
                                 'Chief AI Scientist',
                                 background([
                                     t('team.nicholasBackground'),
                                 ],
                                 [
-                                    require('./../../assets/images/unina_1.png').default,
-                                    require('./../../assets/images/ethz.png').default
+                                    require('./../../assets/images/unina_1.png'),
+                                    require('./../../assets/images/ethz.png')
                                 ]))}
                         </div>
                         <div className="tiles-item reveal-from-left" data-reveal-delay="200">
                             {createProfile(
-                                require('./../../assets/images/carlota.png').default,
+                                require('./../../assets/images/carlota.png'),
                                 'Carlota Parés Morlans',
                                 'Chief Operating Officer',
                                 background([
                                     t('team.carlotaBackground'),
                                 ],
                                 [
-                                    require('./../../assets/images/lasalle.png').default,
-                                    require('./../../assets/images/stanford.png').default
+                                    require('./../../assets/images/lasalle.png'),
+                                    require('./../../assets/images/stanford.png')
                                 ]))}
                         </div>
                     </div>
@@ -174,15 +174,15 @@ const Team = ({
 
                         <div className="tiles-item reveal-from-right" data-reveal-delay="200">
                             {createProfile(
-                                require('./../../assets/images/ronald.png').default,
+                                require('./../../assets/images/ronald.png'),
                                 'Ronald Clark',
                                 '',
                                 background([
                                     t('team.ronaldBackground'),
                                 ],
                                 [
-                                    require('./../../assets/images/oxford.png').default,
-                                    require('./../../assets/images/imperial_college.png').default
+                                    require('./../../assets/images/oxford.png'),
+                                    require('./../../assets/images/imperial_college.png')
                                 ]))}
                         </div>
 

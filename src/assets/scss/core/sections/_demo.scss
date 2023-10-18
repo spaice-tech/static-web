@@ -5,12 +5,16 @@
         to bottom,
         rgba(0, 0, 0, 0),
         rgba(0, 0, 0, 0.5)
-      ), url('./../../../images/demo/demo_header.jpg');
+      ), url('./../../../images/demo.nosync/demo_header.jpg');
 	background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
     display: flex;
     align-items: flex-end;
+}
+
+.left-content {
+    text-align: start;
 }
 
 .grid-col {
@@ -27,10 +31,15 @@
     padding: 10px;
 }
 
+.grid-2item {
+    flex-grow: 1;
+    width: 50%;
+    padding: 10px;
+}
 
 .grid-item {
     flex-grow: 1;
-    width: 25%;
+    width: 10%;
     padding: 10px;
 }
 
@@ -42,12 +51,17 @@
     }
 }
 
-.text-header {
-    margin-left: 32px;
-    text-shadow: 1px 1px 2px black;
+.demo {
+    .text-header {
+        margin-left: 32px;
+        text-shadow: 1px 1px 2px black;
+    
+        @include font-size(h1);
+    }
 
-    @include font-size(h1);
+    
 }
+
 
 .caption{
     display: flex;
@@ -61,3 +75,20 @@
 .demo-image{
     width: 50%;
 }
+
+.comparison {
+    max-width: 40%;
+    margin-bottom: 64px;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+    grid-gap: 10px; /* Adjust the gap between images as needed */
+  }
+  
+.image-grid img {
+width: 100%;
+height: auto;
+}
+  

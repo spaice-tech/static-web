@@ -53,7 +53,7 @@ const Values = ({
 
     const { t } = useTranslation();
 
-    const { height, width } = useWindowDimensions();
+    const dimensions = useWindowDimensions();
 
     return (
         <section
@@ -72,7 +72,7 @@ const Values = ({
                     <div className='center-content pt-32'>
                         <Image
                             src={require(
-                                width > 640 ? './../../assets/images/SPAICE_values.svg' : './../../assets/images/SPAICE_values_mobile.png'
+                                dimensions.width > 640 ? './../../assets/images/SPAICE_values.svg' : './../../assets/images/SPAICE_values_mobile.png'
                                 ).default}
                             alt="SPAICE values"
                             width='100%'/>

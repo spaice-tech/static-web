@@ -37,7 +37,7 @@ const NewsHeaders = ({
     );
 
     const innerClasses = classNames(
-        'header-inner section-inner',
+        'news header-inner section-inner',
         topDivider && 'has-top-divider',
         bottomDivider && 'has-bottom-divider'
     );
@@ -47,7 +47,7 @@ const NewsHeaders = ({
 
     const createHeader = (title, description, link, background) => {
         return (
-            <div className='mt-32 ttec-background'>
+            <div className={'mt-32 ' + background}>
                 <div
                     className={innerClasses}
                     onClick={() => {history.push(link)}}
@@ -56,7 +56,7 @@ const NewsHeaders = ({
                         <p className="m-0 text-header">
                             {title}
                         </p>
-                        <p className="m-0 text-color-high paragraph-shadow">
+                        <p className="ml-32 mb-0 text-color-high paragraph-shadow ">
                             {description}
                         </p>
                     </div>
@@ -77,8 +77,8 @@ const NewsHeaders = ({
             
             <div className="container mt-32">
 
-                {createHeader(t('news.news1.title'), t('news.news1.description'), '/news/ttec', 'background-ttec')}
-                {/*createHeader(t('news.news2.title'), t('news.news2.description'))*/}
+                {createHeader(t('news.news1.title'), t('news.news1.description'), '/news/ttec', 'ttec-background')}
+                {createHeader(t('news.news2.title'), t('news.news2.description'), '/news/paris-space-week', 'psw-background')}
 
 
             </div>

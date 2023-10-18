@@ -83,12 +83,14 @@ h5,
 	@include font-size(base);
 }
 
+
 .text-header{
     @include font-size(h3);
-	@include font-family(heading);
-	@include font-weight(heading);
+    @include font-family(heading);
+    @include font-weight(heading);
     color: color(heading);
 }
+
 
 .text-large{
     @include font-weight(bquote);

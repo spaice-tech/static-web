@@ -73,6 +73,10 @@
         "news1": {
             "title": "SPAICE awarded at T-Tec 2022",
             "description": "SPAICE's innovative technology has been awarded at T-Tec 2022 in the context of the European Space Conference in Brussels."
+        },
+        "news2": {
+            "title": "SPAICE at Paris Space Week 2023",
+            "description": "SPAICE team has presented it's disruptive AI-based solutions at PSW 2023."
         }
     },
     "header": {
