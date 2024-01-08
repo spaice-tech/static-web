@@ -1,10 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.60046598.css",
-    "main.js": "/static/js/main.a635a332.js",
+    "main.css": "/static/css/main.5dc907cf.css",
+    "main.js": "/static/js/main.2bf5338b.js",
     "static/media/docking_pose_estimation.gif": "/static/media/docking_pose_estimation.d7dd8f33d11a708640ee.gif",
     "static/media/matteo.jpg": "/static/media/matteo.e54ae2af9ca86cd0d7a5.jpg",
-    "static/media/carlota.png": "/static/media/carlota.b747f6ff3fb13cb7c636.png",
     "static/media/booth.JPG": "/static/media/booth.56d068e3640ca9992b18.JPG",
     "static/media/crewdragon_221.png": "/static/media/crewdragon_221.a5c3fd2688c9599e900d.png",
     "static/media/soyuz1_enhanced.png": "/static/media/soyuz1_enhanced.1715af9f308c63cfa546.png",
@@ -20,11 +19,11 @@
     "static/media/crewdragon_319.png": "/static/media/crewdragon_319.b336b898e55693189dbf.png",
     "static/media/soyuz_16740.png": "/static/media/soyuz_16740.d8885191e37e3f6aa365.png",
     "static/media/soyuz_16731.png": "/static/media/soyuz_16731.aebc622d63791dbd60ef.png",
-    "static/media/guillem.jpg": "/static/media/guillem.8b5cb9d881de6a516637.jpg",
     "static/media/soyuz_16595.png": "/static/media/soyuz_16595.22638d9ee6ed916a1a92.png",
     "static/media/soyuz_16684.png": "/static/media/soyuz_16684.5df34cc2b1ef0708cce5.png",
     "static/media/crewdragon_108.png": "/static/media/crewdragon_108.174962ee60b89fe10274.png",
     "static/media/crewdragon_28.png": "/static/media/crewdragon_28.82aad36e6e3642727471.png",
+    "static/media/robot-manipulation.png": "/static/media/robot-manipulation.0de3b09d7742983d21a5.png",
     "static/media/crewdragon_208.png": "/static/media/crewdragon_208.146923fb940ca60d0962.png",
     "static/media/crewdragon_79.png": "/static/media/crewdragon_79.a3c277bf68093ac2d4c9.png",
     "static/media/crewdragon_11.png": "/static/media/crewdragon_11.717c697ceaafa6634fc5.png",
@@ -221,7 +220,7 @@
     "static/media/soyuz_16553.png": "/static/media/soyuz_16553.0d0d031b03478803518f.png",
     "static/media/crewdragon_193.png": "/static/media/crewdragon_193.9c3440f17df52cd99160.png",
     "static/media/crewdragon_67.png": "/static/media/crewdragon_67.bce3ec2a4e1c80e23421.png",
-    "static/media/space_debris.jpg": "/static/media/space_debris.17320c0246c603b22810.jpg",
+    "static/media/space_debris.jpeg": "/static/media/space_debris.17320c0246c603b22810.jpeg",
     "static/media/crewdragon_238.png": "/static/media/crewdragon_238.80c7f1b6187dd2c49221.png",
     "static/media/crewdragon_51.png": "/static/media/crewdragon_51.ce0e7505b0da09caf637.png",
     "static/media/soyuz_16683.png": "/static/media/soyuz_16683.b6d1bbc58e3faab056d8.png",
@@ -278,7 +277,6 @@
     "static/media/soyuz_16639.png": "/static/media/soyuz_16639.d73416cb95d2563b4985.png",
     "static/media/soyuz_16671.png": "/static/media/soyuz_16671.769814c02fc9efe38c4c.png",
     "static/media/soyuz_16626.png": "/static/media/soyuz_16626.251f3aee41e8db25ab1f.png",
-    "static/media/robot-manipulation.jpeg": "/static/media/robot-manipulation.cc3b2e1be92a5e85c8df.jpeg",
     "static/media/soyuz_16568.png": "/static/media/soyuz_16568.1fc6727f8a370187d3a2.png",
     "static/media/soyuz_16733.png": "/static/media/soyuz_16733.fd8a27bb8dc1d4c98feb.png",
     "static/media/soyuz_16641.png": "/static/media/soyuz_16641.34b2d38b74e8df7a5daf.png",
@@ -328,6 +326,7 @@
     "static/media/ttec-header.jpg": "/static/media/ttec-header.357f564b871349e8f81d.jpg",
     "static/media/ronald.png": "/static/media/ronald.a50530cf86c8c2cbf08e.png",
     "static/media/unina_1.png": "/static/media/unina_1.b2e2868d122bb7e686c2.png",
+    "static/media/guillem.jpeg": "/static/media/guillem.d88d971e2934fa28bb90.jpeg",
     "static/media/ttec-2.jpg": "/static/media/ttec-2.ffc4914819083fb9f483.jpg",
     "static/media/soyuz_16714.jpg": "/static/media/soyuz_16714.ba3deb79d2d382b325a8.jpg",
     "static/media/soyuz_16749.jpg": "/static/media/soyuz_16749.2818ac906626e5c3f28e.jpg",
@@ -608,7 +607,6 @@
     "static/media/crewdragon_243.jpg": "/static/media/crewdragon_243.548998bee0a44b4d9913.jpg",
     "static/media/crewdragon_112.jpg": "/static/media/crewdragon_112.859461a25bce3cc421be.jpg",
     "static/media/crewdragon_155.jpg": "/static/media/crewdragon_155.c6dea3fc21ca1a8406a1.jpg",
-    "static/media/stanford.png": "/static/media/stanford.c517ffef886ac132f508.png",
     "static/media/crewdragon_21.jpg": "/static/media/crewdragon_21.35f58a9dc082163b247c.jpg",
     "static/media/soyuz_16717.jpg": "/static/media/soyuz_16717.3b4b8c9693dd02bed4ed.jpg",
     "static/media/crewdragon_59.jpg": "/static/media/crewdragon_59.46b3df53695aae4978e3.jpg",
@@ -655,11 +653,11 @@
     "static/media/cta-illustration.svg": "/static/media/cta-illustration.79633e4594ec76a3f01f.svg",
     "index.html": "/index.html",
     "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.60046598.css.map": "/static/css/main.60046598.css.map",
-    "main.a635a332.js.map": "/static/js/main.a635a332.js.map"
+    "main.5dc907cf.css.map": "/static/css/main.5dc907cf.css.map",
+    "main.2bf5338b.js.map": "/static/js/main.2bf5338b.js.map"
   },
   "entrypoints": [
-    "static/css/main.60046598.css",
-    "static/js/main.a635a332.js"
+    "static/css/main.5dc907cf.css",
+    "static/js/main.2bf5338b.js"
   ]
 }
