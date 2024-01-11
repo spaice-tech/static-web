@@ -38,7 +38,7 @@
 }
 
 .background-space-debris::after {
-    @include background('space_debris.jpg', 100%, 100%, top);
+    @include background('space_debris.jpeg', 100%, 100%, top);
     opacity: 0.5;
 }
 

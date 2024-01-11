@@ -126,7 +126,7 @@ const FeaturesSplit = ({
                             {createLeftSplit(t('products.poseEstimation'), require('./../../assets/images/pose_estimation.png'), t('products.poseEstimationHeader'), t('products.poseEstimationDescription'))}
                             {createRightSplit(t('products.navigation'), require('./../../assets/images/navigation.png'), t('products.navigationHeader'), t('products.navigationDescription'))}
                             {createLeftSplit(t('products.docking'), require('./../../assets/images/docking.jpg'), t('products.dockingHeader'), t('products.dockingDescription'))}
-                            {createRightSplit(t('products.onBoard'), require('./../../assets/images/robot-manipulation.jpeg'), t('products.onBoardHeader'), t('products.onBoardDescription'))}
+                            {createRightSplit(t('products.onBoard'), require('./../../assets/images/robot-manipulation.png'), t('products.onBoardHeader'), t('products.onBoardDescription'))}
                             
                         </div>
                     </div>

@@ -46,9 +46,10 @@ const SecondDemo = ({
     );
 
     const imageContext = require.context(
-        './../assets/images/grid.nosync/',
+        './../assets/images/synthetic.nosync/',
         false,
-        /^\.\/s\d+\.png$/ // Regular expression to match image file extensions
+        /\.(jpg|png)$/
+        ///^\.\/s\d+\.png$/ // Regular expression to match image file extensions
     );
 
     const imagePaths = imageContext.keys();
@@ -56,34 +57,53 @@ const SecondDemo = ({
     // create state of view
     const [demoState, setDemoState] = useState({
         showingEnhancement: false,
-        imageIndex: 0,
-        isLoading: false
+        filename: 'crewdragon_105',
+        isLoading: false,
+        images: imagePaths.map((imagePath) => imageContext(imagePath)).sort(() => Math.random() - 0.5)
     });
 
     // sort imagePahts by number
-    imagePaths.sort((a, b) => {
+    /*imagePaths.sort((a, b) => {
         const aNum = parseInt(a.match(/\d+/)[0]);
         const bNum = parseInt(b.match(/\d+/)[0]);
         return aNum - bNum;
-    });
+    });*/
 
-    const images = imagePaths.map((imagePath) => imageContext(imagePath));
+    
+    const handleImageClick = (imgPath) => {
 
-    const handleImageClick = (index) => {
-        // Perform any additional logic or navigation here
-        console.log('Image clicked:', index);
+        // Split the path into directory and filename
+        const parts = imgPath.split('/');
+        const filename = parts[parts.length - 1];
+
+        // Find the position of the last point in the filename
+        const lastDotIndex = filename.lastIndexOf('.');
+
+        // Extract the parts before and after the last point
+        const afterLastDot = filename.slice(lastDotIndex);
+        let beforeLastDot = filename.slice(0, lastDotIndex);
+        const secondLastDotIndex = beforeLastDot.lastIndexOf('.');
+        beforeLastDot = beforeLastDot.slice(0, secondLastDotIndex);
+
+        // Change the first letter to 's'
+        const syntheticFilename = beforeLastDot + afterLastDot;
+        const realFilename = 'r' + beforeLastDot.substring(1) + afterLastDot;
+        
         setDemoState({
+            ...demoState,
             showingEnhancement: true,
-            imageIndex: index,
+            filename: beforeLastDot,
             isLoading: true
         });
     };
 
     const backToMain = () => {
         setDemoState({
+            ...demoState,
             showingEnhancement: false,
-            imageIndex: 0,
-            isLoading: false
+            filename: 'crewdragon_105',
+            isLoading: false,
+            images: imagePaths.map((imagePath) => imageContext(imagePath)).sort(() => Math.random() - 0.5)
         });
     };
 
@@ -93,12 +113,15 @@ const SecondDemo = ({
                 ...demoState,
                 isLoading: false
             });
-        }, 6000);
+        }, 2000);
 
         return () => clearTimeout(timeout);
     }, [demoState]);
 
     // The path is going to be './../assets/images/grid.nosync/r<imageindex+1>.jpg'
+
+    console.log("leftImage: ./../assets/images/synthetic.nosync/" + demoState.filename + '.png');
+    console.log("rightImage: ./../assets/images/enhanced.nosync/" + demoState.filename + '.jpg');
     const comparisonView = (
         <div className="container mt-32 comparison center-content">
             {demoState.isLoading ? (
@@ -117,9 +140,13 @@ const SecondDemo = ({
             ) : (
                 <div className="container left-content">
                     <ArrowBackIcon onClick={() => backToMain()}/>
-                    <ReactCompareImage 
-                        leftImage={require('./../assets/images/grid.nosync/r' + (demoState.imageIndex+1) + '.png')} 
-                        rightImage={require('./../assets/images/grid.nosync/s' + (demoState.imageIndex+1) + '.png')} />
+                    {<ReactCompareImage 
+                        leftImage={require('./../assets/images/synthetic.nosync/' + demoState.filename + '.png')} 
+                        rightImage={require('./../assets/images/enhanced.nosync/' + demoState.filename + '.jpg')} />}
+                    <div className="container grid-caption">
+                        <p className='left-content'>Synthetic</p>
+                        <p className='right-content'>Photorealistic</p>
+                    </div>
                 </div>
             )}
         </div>
@@ -136,10 +163,11 @@ const SecondDemo = ({
                 comparisonView
             ) : (
                 <div className="container mt-32">
+                    Click on a synthetic image to see its photorealistic counterpart.
                     {<div className="grid-col">
-                        {images.map((img, index) => (
-                            <div className="grid-item" key={index} onClick={() => handleImageClick(index)}>
-                                <Image src={img} alt={`${index}`} />
+                        {demoState.images.map((img, index) => (
+                            <div className="grid-item" key={index} onClick={() => handleImageClick(img)}>
+                                {<Image src={img} alt={`${index}`} />}
                             </div>
                         ))}
                     </div>}

@@ -20,11 +20,6 @@ import SecondDemo from './views/SecondDemo';
 import LayoutArticle from './layouts/LayoutArticle';
 import LayoutDemo from './layouts/LayoutDemo';
 import NewsPSW from './views/news/PSW';
-import Comparison from './views/Comparison';
-import Comparison2 from './views/Comparison2';
-import Comparison3 from './views/Comparison3';
-import Comparison4 from './views/Comparison4';
-import Comparison10 from './views/Comparison10';
 
 // Initialize Google Analytics
 ReactGA.initialize(process.env.REACT_APP_GA_CODE);

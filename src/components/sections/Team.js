@@ -128,7 +128,7 @@ const Team = ({
 
                         <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
                             {createProfile(
-                                require('./../../assets/images/guillem.jpg'),
+                                require('./../../assets/images/guillem.jpeg'),
                                 'Guillem Garrofé Montoliu',
                                 'Chief Technology Officer',
                                 background([
@@ -154,7 +154,7 @@ const Team = ({
                                     require('./../../assets/images/ethz.png')
                                 ]))}
                         </div>
-                        <div className="tiles-item reveal-from-left" data-reveal-delay="200">
+                        {/*<div className="tiles-item reveal-from-left" data-reveal-delay="200">
                             {createProfile(
                                 require('./../../assets/images/carlota.png'),
                                 'Carlota Parés Morlans',
@@ -166,7 +166,7 @@ const Team = ({
                                     require('./../../assets/images/lasalle.png'),
                                     require('./../../assets/images/stanford.png')
                                 ]))}
-                        </div>
+                            </div>*/}
                     </div>
 
                     <p className="text-header ta-c pt-32">{t('team.advisory')}</p>
